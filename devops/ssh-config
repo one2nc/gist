@@ -1,0 +1,18 @@
+Host webserver-1
+  User git 
+  HostName gitlab.com
+  PreferredAuthentications publickey
+  StrictHostKeyChecking no
+Host webserver-2
+  User git 
+  HostName github.com
+  PreferredAuthentications publickey
+  StrictHostKeyChecking no
+Host dbserver-1
+  User git 
+  HostName github.com
+  PreferredAuthentications publickey
+Host dbserver-2
+  User git 
+  HostName gitlab.com
+  PreferredAuthentications publickey
