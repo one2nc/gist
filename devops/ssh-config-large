@@ -1,0 +1,40 @@
+Host webserver-1
+  User git 
+  HostName gitlab.com
+  PreferredAuthentications publickey
+  StrictHostKeyChecking no
+Host webserver-2
+  User git 
+  HostName example.com
+  PreferredAuthentications publickey
+  StrictHostKeyChecking no
+Host webserver-3
+  User git 
+  HostName google.com
+  PreferredAuthentications publickey
+Host webserver-4
+  User git 
+  HostName github.com
+  PreferredAuthentications publickey
+Host webserver-5
+  User git 
+  HostName example.com
+  PreferredAuthentications publickey
+  StrictHostKeyChecking no
+Host webserver-6
+  User git 
+  HostName github.com
+  PreferredAuthentications publickey
+Host webserver-7
+  User git 
+  HostName google.com
+  PreferredAuthentications publickey
+Host webserver-8
+  User git 
+  HostName github.com
+  PreferredAuthentications publickey
+Host webserver-9
+  User git 
+  HostName example.com
+  PreferredAuthentications publickey
+  StrictHostKeyChecking no
